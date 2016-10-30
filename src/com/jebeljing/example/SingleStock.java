@@ -41,9 +41,9 @@ public class SingleStock {
         /**
          * Single Stock - Include Historical Quotes
          */
-        Stock testla = YahooFinance.get("TSLA", true);
-        System.out.println(testla.getHistory());
-        testla.print();
+        Stock dnr = YahooFinance.get("DNR", true);
+        System.out.println(dnr.getHistory());
+        dnr.print();
 
         Calendar from = Calendar.getInstance();
         Calendar to = Calendar.getInstance();
